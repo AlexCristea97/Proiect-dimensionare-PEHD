@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="DimensionareConducte">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="28" width="476" height="332"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="247b3" class="javax.swing.JTextField" binding="vasClosetTextField" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="32"/>
+            <preferred-size width="152" height="32"/>
+            <maximum-size width="100" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Vas closet"/>
+        </properties>
+      </component>
+      <component id="b939f" class="javax.swing.JTextField" binding="spalatorTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="32"/>
+            <preferred-size width="152" height="32"/>
+            <maximum-size width="100" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Spalator"/>
+        </properties>
+      </component>
+      <component id="79223" class="javax.swing.JTextField" binding="lavoarTextField" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="32"/>
+            <preferred-size width="152" height="32"/>
+            <maximum-size width="100" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Lavoar"/>
+        </properties>
+      </component>
+      <component id="56075" class="javax.swing.JTextField" binding="nrLavoar">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="32"/>
+            <preferred-size width="150" height="32"/>
+            <maximum-size width="150" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ece99" class="javax.swing.JTextField" binding="nrSpalator">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="32"/>
+            <preferred-size width="150" height="32"/>
+            <maximum-size width="150" height="32"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8c14c" class="javax.swing.JTextField" binding="nrVasCloset">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="32"/>
+            <preferred-size width="150" height="32"/>
+            <maximum-size width="150" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="faecd" class="javax.swing.JTextField" binding="cadaBaieTextField" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="32"/>
+            <preferred-size width="152" height="32"/>
+            <maximum-size width="100" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Cada baie"/>
+        </properties>
+      </component>
+      <component id="74ae1" class="javax.swing.JTextField" binding="masinaDeSpalatTextField" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="32"/>
+            <preferred-size width="152" height="32"/>
+            <maximum-size width="100" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Masina de spalat"/>
+        </properties>
+      </component>
+      <component id="b62e7" class="javax.swing.JTextField" binding="dusTextField" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="32"/>
+            <preferred-size width="152" height="32"/>
+            <maximum-size width="100" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Dus"/>
+        </properties>
+      </component>
+      <component id="db3d8" class="javax.swing.JTextField" binding="pisoarTextField" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="32"/>
+            <preferred-size width="152" height="32"/>
+            <maximum-size width="100" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Pisoar"/>
+        </properties>
+      </component>
+      <component id="e39a7" class="javax.swing.JTextField" binding="bideuTextField" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="32"/>
+            <preferred-size width="152" height="32"/>
+            <maximum-size width="100" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Bideu"/>
+        </properties>
+      </component>
+      <component id="27fd8" class="javax.swing.JTextField" binding="nrCadaBaie">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="32"/>
+            <preferred-size width="150" height="32"/>
+            <maximum-size width="150" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2fba4" class="javax.swing.JTextField" binding="nrMS">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="32"/>
+            <preferred-size width="150" height="32"/>
+            <maximum-size width="150" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="56e4a" class="javax.swing.JTextField" binding="nrDus">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="32"/>
+            <preferred-size width="150" height="32"/>
+            <maximum-size width="150" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1473e" class="javax.swing.JTextField" binding="nrBideu">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="32"/>
+            <preferred-size width="150" height="32"/>
+            <maximum-size width="150" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d8127" class="javax.swing.JTextField" binding="Rezultat">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="32"/>
+            <preferred-size width="150" height="32"/>
+            <maximum-size width="150" height="32"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="266f0" class="javax.swing.JButton" binding="debitLSButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="152" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Debit [l/s]"/>
+        </properties>
+      </component>
+      <component id="2474a" class="javax.swing.JTextField" binding="nrPisoar">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="32"/>
+            <preferred-size width="150" height="32"/>
+            <maximum-size width="150" height="32"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b9766" class="javax.swing.JButton" binding="diametruOptimButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Diametru optim"/>
+        </properties>
+      </component>
+      <component id="2b917" class="javax.swing.JTextField" binding="Diametru">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
