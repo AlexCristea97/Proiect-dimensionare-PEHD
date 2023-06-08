@@ -60,10 +60,14 @@ public class DimensionareConducte {
 
                 try {
                     double intRez = Double.parseDouble(Rezultat.getText());
-                    if(intRez < 1) {
+                    if(intRez < 0.3) {
                         Diametru.setText("De 30");
-                    } else {
-                        Diametru.setText("De infinit");
+                    } else if(intRez>0.3 && intRez<0.6){
+                        Diametru.setText("De 40");
+                    } else if(intRez>0.6 && intRez<0.9){
+                        Diametru.setText("De 63");
+                    } else if (intRez >0.9){
+                        Diametru.setText("De 125");
                     }
                 }
                     catch (NumberFormatException ex){
